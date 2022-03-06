@@ -23,12 +23,12 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   slug: features
-  headline: Home Baked <br>and in a shop near you
+  headline: "<strong>Home Baked</strong> <br>and in a shop near you"
   content: Suppliers to coffee shops, supermarkets and stalls.<br>Quality ingredients.
   cta:
     enabled: true
     url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
+    button_text: Contact Us
   image:
     image: "/v1646599471/brownbean/web/brownbeanlarge.jpg"
     alt_text: Brown Bean Products
