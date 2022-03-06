@@ -27,8 +27,8 @@ page_sections:
   image_3:
     image: "/v1646604834/brownbean/web/bb-slices.jpg"
     alt_text: Brown Bran Granola Slice
-  headline: ''
-  content: ''
+  headline: '<strong>Home Baked</strong> <br>in a shop near you'
+  content: 'Suppliers to coffee shops, supermarkets and stalls.'
   cta:
     enabled: false
     url: ''
