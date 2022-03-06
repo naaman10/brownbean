@@ -16,6 +16,23 @@ page_sections:
     image: "/v1646599471/brownbean/web/brownbeanlarge.jpg"
     alt_text: Brown Bean Products
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
+- template: hero-banner-w-collage
+  block: hero-1
+  image_1:
+    image: "/v1646599471/brownbean/web/brownbeanlarge.jpg"
+    alt_text: Brown Bean Mars Crispy Slices
+  image_2:
+    image: "/v1646604834/brownbean/web/bb-package.jpg"
+    alt_text: Brown Bean Packaging
+  image_3:
+    image: "/v1646604834/brownbean/web/bb-slices.jpg"
+    alt_text: Brown Bran Granola Slice
+  headline: ''
+  content: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
