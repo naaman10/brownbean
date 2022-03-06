@@ -24,8 +24,7 @@ page_sections:
   block: hero-2
   slug: features
   headline: Home Baked <br>and in a shop near you
-  content: The tool that allows you to build beautiful sites<br>all inside Forestry's
-    content manager.
+  content: Suppliers to coffee shops, supermarkets and stalls.<br>Quality ingrediants.
   cta:
     enabled: true
     url: https://github.com/forestryio/ubuild-jekyll
