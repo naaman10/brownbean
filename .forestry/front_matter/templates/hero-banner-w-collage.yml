@@ -7,12 +7,9 @@ fields:
   label: block
   name: block
   default: hero-1
-- type: file
-  name: background_image
-  label: Background Image
 - type: field_group
-  name: image
-  label: Image
+  name: image_1
+  label: Image 1
   fields:
   - type: file
     name: image
