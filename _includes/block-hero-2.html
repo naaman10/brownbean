@@ -1,19 +1,19 @@
-<section class="block block-hero-2"
-{% if section.background_image %}
-style="background-image: url('{{ section.background_image | relative_url }}')"
-{% endif %}>
-  <div class="container">
-    <div class="columns">
-      <div class="column text">
-        <h1><span class="light">{{ section.headline }}</span></h1>
-        <p>{{ section.content }}</p>
-        {% if section.cta and section.cta.enabled == true %}
-        <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
-        {% endif %}
+  <div class="d-flex min-vh-100" lc-helper="background" style="background:url({{ site.cloudinary_url }}{{ section.image.image }})  center / cover no-repeat; background-color:#444; background-blend-mode: overlay;">
+    <div class="align-self-center text-center text-light col-md-8 offset-md-2">
+      <div class="lc-block mb-4">
+        <div editable="rich">
+          <h1 class="display-1 fw-bolder">{{ section.headline }}</h1>
+        </div>
       </div>
-      <div class="column media">
-        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}" loading="lazy">
+      <div class="lc-block">
+        <div editable="rich">
+          <p class="lead">{{ section.content }}</p>
+          {% if section.cta and section.cta.enabled == true %}
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="{{ section.cta.url }}" type="button" class="btn btn-primary btn-lg px-4 me-md-2">{{ section.cta.button_text }}</a>
+          </div>
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
-</section>
