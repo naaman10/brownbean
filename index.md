@@ -29,5 +29,8 @@ page_sections:
   media:
     image: "/v1646604834/brownbean/web/bb-slices.jpg"
     alt_text: The Brown Bean Fifteens
+  cta:
+    url: "#"
+    text: Find out more
 
 ---
