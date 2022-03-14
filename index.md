@@ -34,7 +34,7 @@ page_sections:
     text: Find out more
     active: true
 - template: product
-  block: product
+  block: products
   category: cakes
 
 ---

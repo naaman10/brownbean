@@ -1,0 +1,7 @@
+<section class="container">
+{% if section.category == "cakes" %}
+    {% for cake in site.data.products.cakes %}
+        <h1>{{ cake.name }}</h1>
+    {% endfor %}
+{% endif  %}
+</section>
