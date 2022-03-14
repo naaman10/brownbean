@@ -1,0 +1,12 @@
+
+<section class="container">
+    <div class="row">
+        {% if section.category == "cakes" %}
+        {% for cake in site.products.cakes %}
+        <div class="col-3">
+            {{ cake.name }}
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</section>
