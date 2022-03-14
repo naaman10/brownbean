@@ -32,5 +32,6 @@ page_sections:
   cta:
     url: "#"
     text: Find out more
+    active: true
 
 ---
