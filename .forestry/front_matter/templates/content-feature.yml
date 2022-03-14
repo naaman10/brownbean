@@ -48,6 +48,9 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: active
+    type: boolean
+    label: Active?
   - name: url
     type: text
     config:
