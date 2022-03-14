@@ -20,5 +20,14 @@ page_sections:
     enabled: false
     url: ''
     button_text: ''
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: Brown Bean Fifteens
+  slug: "#"
+  content: 'Our delicious classic is packed full of flavour and nostalgia. '
+  media:
+    image: "/v1646604834/brownbean/web/bb-slices.jpg"
+    alt_text: The Brown Bean Fifteens
 
 ---
