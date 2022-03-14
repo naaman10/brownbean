@@ -33,5 +33,8 @@ page_sections:
     url: "#"
     text: Find out more
     active: true
+- template: product
+  block: product
+  category: cakes
 
 ---
