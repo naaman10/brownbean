@@ -33,7 +33,7 @@ page_sections:
     url: "#"
     text: Find out more
     active: true
-- template: product
+- template: products
   block: products
   category: cakes
 

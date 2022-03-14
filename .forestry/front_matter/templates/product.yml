@@ -6,7 +6,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: product
+  default: products
 - name: category
   type: select
   default: []
