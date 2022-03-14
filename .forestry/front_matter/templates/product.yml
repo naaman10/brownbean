@@ -7,3 +7,17 @@ fields:
   label: block
   name: block
   default: product
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - cakes
+    - breads
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
