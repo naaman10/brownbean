@@ -32,5 +32,6 @@ fields:
   - simple-footer
   - 4-column-footer
   - hero-banner-w-collage
+  - product
 pages:
 - index.md
