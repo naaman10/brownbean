@@ -1,0 +1,15 @@
+<section>
+    <div class="row">
+        {% for image in page.gallery %}
+        <div 
+        {% if forloop.index == 1 %}
+        class="col-12 mb-4"
+        {% else %}
+        class="col-4 mb-4"
+        {% endif %}
+        >
+            <img class="img-fluid" src="{{ site.cloudinary_url }}//c_crop,g_center,h_1080,w_1080{{ image | relative_url}}" alt="{{ page.title }} Product Image">
+        </div>
+        {% endfor %}
+    </div>
+</section>
