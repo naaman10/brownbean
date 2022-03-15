@@ -5,30 +5,41 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: text
-  name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
+  default: product
+  hidden: true
 - type: file
   name: image
-  label: image
-- type: number
-  name: weight
-  label: weight
+  label: Image
 - type: text
-  name: category
-  label: category
+  name: title
+  label: Title
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - cakes
+    - breads
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
 - type: textarea
   name: description
-  label: description
+  label: Description
+- type: number
+  name: weight
+  label: Weight
+  description: Grams
 - type: list
   name: ingredients
-  label: ingredients
-- type: image_gallery
-  name: gallery
-  label: gallery
+  label: Ingredients
 - type: list
   name: allergens
-  label: allergens
+  label: Allergens
+- type: image_gallery
+  name: gallery
+  label: Gallery
