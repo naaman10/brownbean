@@ -1,18 +1,20 @@
 <section class="container">
     <div class="row">
         {% if section.category == "cakes" %}
-        {% for post in site.categories.cakes %}
-        <div class="col-12 col-md-3">
-            <div class="card">
+        <div class="col-12 mb-5"><h2>Our Cakes</h2></div>
+        {% for post in site.categories.cakes limit: 4 %}
+        <div class="col-6 col-md-6 col-lg-3">
+            <div class="card mb-4">
                 <img src="{{ site.cloudinary_url }}/c_crop,h_600,w_1080{{ post.image }}" class="card-img-top" alt="{{ post.title}}">
                 <div class="card-body">
                     <h5 class="card-title">{{ post.title }}</h5>
-                    <p class="card-text">{{ post.description | truncatewords: 15 }}</p>
+                    <p class="card-text d-none d-md-inline-block">{{ post.description | truncatewords: 15 }}</p>
                     <a href="{{ site.github.url }}{{ post.url }}" class="btn btn-primary">FIND OUT MORE</a>
                 </div>
             </div>
         </div>
         {% endfor %}
+        <div class="col-12 d-flex justify-content-end my-3"><button class="btn btn-primary">view all</button></div>
         {% endif %}
     </div>
 </section>
