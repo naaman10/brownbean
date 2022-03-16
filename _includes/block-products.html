@@ -4,10 +4,10 @@
         {% for post in site.categories.cakes %}
         <div class="col-12 col-md-3">
             <div class="card">
-                <img src="{{ post.image }}" class="card-img-top" alt="{{ post.title}}">
+                <img src="{{ site.cloudinary_url }}/c_crop,h_600,w_1080{{ post.image }}" class="card-img-top" alt="{{ post.title}}">
                 <div class="card-body">
                     <h5 class="card-title">{{ post.title }}</h5>
-                    <p class="card-text">{{ post.description }}</p>
+                    <p class="card-text">{{ post.description | truncatewords: 15 }}</p>
                     <a href="{{ site.github.url }}{{ post.url }}" class="btn btn-primary">FIND OUT MORE</a>
                 </div>
             </div>

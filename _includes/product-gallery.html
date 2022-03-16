@@ -8,7 +8,11 @@
         class="col-4 mb-4"
         {% endif %}
         >
-            <img class="img-fluid" src="{{ site.cloudinary_url }}//c_crop,g_center,h_1080,w_1080{{ image | relative_url}}" alt="{{ page.title }} Product Image">
+            <img class="img-fluid" src="{{ site.cloudinary_url }}//c_crop,g_center,h_1080,w_1080{{ image | relative_url}}" alt="{{ page.title }} Product Image" {% if forloop.index == 1 %}
+            id="productImagePrimary"
+            {% else %}
+            id="productImage{{ forloop.index }}"
+            {% endif %} data-image="image{{ forloop.index }}">
         </div>
         {% endfor %}
     </div>
