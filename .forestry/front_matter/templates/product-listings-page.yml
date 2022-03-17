@@ -5,21 +5,31 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: product-listing
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: sub-title
-  label: sub-title
-- type: text
-  name: permalink
-  label: permalink
-- type: text
-  name: category
-  label: category
+  label: Sub-Title
 - type: file
   name: hero-image
-  label: hero-image
-- type: datetime
-  name: date
-  label: date
+  label: Page Image
+- type: text
+  name: permalink
+  label: Permalink
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - cakes
+    - breads
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
