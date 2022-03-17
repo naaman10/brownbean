@@ -8,6 +8,16 @@ description: >-
 url: "" # your site's origin, e.g. https://forestry.io
 cloudinary_url: https://res.cloudinary.com/njh101010/image/upload
 logo: /v1646598990/brownbean/web/logo.jpg
+socials:
+  - name: Twitter
+    link: https://www.twitter.com/brownbean
+    icon: <i class="fa fa-brands fa-twitter"></i>
+  - name: Facebook
+    link: https://www.facebook.com/brownbean
+    icon: <i class="fa fa-brands fa-facebook"></i>
+  - name: Instagram
+    link: https://www.instagram.com/brownbean_ni
+    icon: <i class="fa fa-brands fa-instagram"></i>
 # Build settings
 defaults:
   - scope:
