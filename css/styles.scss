@@ -30,3 +30,10 @@ h1,h2,h3,h4,h5,h6 {
 #productImage2:hover,#productImage3:hover,#productImage4:hover {
   cursor: pointer;
 }
+.page-hero {
+  min-height: 400px;
+  background-image: linear-gradient(-45deg, rgba(#31DAD8, .75) 25%, rgba(#da3d31, .75) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

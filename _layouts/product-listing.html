@@ -1,8 +1,11 @@
+---
+layout: default
+---
+{% include page-hero.html %}
 <section class="container">
     <div class="row">
-        {% if section.category == "cakes" %}
-        <div class="col-12 mb-5"><h2>Our Cakes</h2></div>
-        {% for post in site.categories.cakes limit: 4 %}
+        {% if page.category == "cakes" %}
+        {% for post in site.categories.cakes %}
         <div class="col-6 col-md-6 col-lg-3">
             <div class="card mb-4">
                 <img src="{{ site.cloudinary_url }}/c_crop,h_600,w_1080{{ post.image }}" class="card-img-top" alt="{{ post.title}}">
@@ -14,7 +17,6 @@
             </div>
         </div>
         {% endfor %}
-        <div class="col-12 d-flex justify-content-end my-3"><a href="{{ site.github.url }}/products/cakes" class="btn btn-primary">view all</a></div>
         {% endif %}
     </div>
 </section>

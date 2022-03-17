@@ -1,0 +1,22 @@
+<!-- <section class="page-hero" style="background-image: url({{ site.cloudinary_url }}/c_crop,h_400,w_1920{{ page.hero-image }});">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="pageHero px-4 py-5 my-5 text-center">
+                    <h1 class="display-5 fw-bold">{{ page.title }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="{{ site.cloudinary_url }}/c_crop,h_400,w_400{{ page.hero-image }}" class="d-block mx-lg-auto img-fluid rounded-circle" alt="{{ page.title }} Image" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">{{ page.title }}</h1>
+        <p class="lead">{{ page.sub-title }}</p>
+      </div>
+    </div>
+  </div>
