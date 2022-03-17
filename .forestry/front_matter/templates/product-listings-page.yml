@@ -1,0 +1,25 @@
+---
+label: Product Listings Page
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: sub-title
+  label: sub-title
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: category
+  label: category
+- type: file
+  name: hero-image
+  label: hero-image
+- type: datetime
+  name: date
+  label: date
