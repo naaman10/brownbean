@@ -16,6 +16,5 @@ page_sections:
     url: ''
     text: Find out more
     active: false
-published: false
 
 ---
