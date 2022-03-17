@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: About Us
-date: 2017-11-22T23:00:00.000+00:00
+permalink: about
 page_sections:
 - template: content-feature
   block: feature-1
